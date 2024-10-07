@@ -1,0 +1,41 @@
+[02-Oct-2024 08:00:09 UTC] PHP Warning:  require(/home/mnnsyhzd/test2/wp-includes/sodium_compat/autoload.php): failed to open stream: No such file or directory in /home/mnnsyhzd/test2/wp-includes/compat.php on line 375
+[02-Oct-2024 08:00:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/mnnsyhzd/test2/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mnnsyhzd/test2/wp-includes/compat.php on line 375
+[04-Oct-2024 07:42:52 UTC] Cron reschedule event error for hook: ewww_image_optimizer_relative_migration, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"ewwwio_relative_migration_interval","args":[],"interval":300}
+[04-Oct-2024 23:32:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function e_() in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php:160
+Stack trace:
+#0 /home/mnnsyhzd/test2/wp-includes/shortcodes.php(434): property_filter_shortcode(Array, '', 'property_filter')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mnnsyhzd/test2/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(proper...', 'do_shortcode_ta...', '[property_filte...')
+#3 /home/mnnsyhzd/test2/wp-content/themes/understrap-child-1.2.0/homepage.php(27): do_shortcode('[property_filte...')
+#4 /home/mnnsyhzd/test2/wp-includes/template-loader.php(106): include('/home/mnnsyhzd/...')
+#5 /home/mnnsyhzd/test2/wp-blog-header.php(19): require_once('/home/mnnsyhzd/...')
+#6 /home/mnnsyhzd/test2/index.php(17): require('/home/mnnsyhzd/...')
+#7 {main}
+  thrown in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php on line 160
+[04-Oct-2024 23:33:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function e_() in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php:160
+Stack trace:
+#0 /home/mnnsyhzd/test2/wp-includes/shortcodes.php(434): property_filter_shortcode(Array, '', 'property_filter')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mnnsyhzd/test2/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(proper...', 'do_shortcode_ta...', '[property_filte...')
+#3 /home/mnnsyhzd/test2/wp-content/themes/understrap-child-1.2.0/homepage.php(27): do_shortcode('[property_filte...')
+#4 /home/mnnsyhzd/test2/wp-includes/template-loader.php(106): include('/home/mnnsyhzd/...')
+#5 /home/mnnsyhzd/test2/wp-blog-header.php(19): require_once('/home/mnnsyhzd/...')
+#6 /home/mnnsyhzd/test2/index.php(17): require('/home/mnnsyhzd/...')
+#7 {main}
+  thrown in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php on line 160
+[04-Oct-2024 23:53:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function e_() in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php:100
+Stack trace:
+#0 /home/mnnsyhzd/test2/wp-includes/shortcodes.php(434): property_filter_shortcode(Array, '', 'property_filter')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mnnsyhzd/test2/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(proper...', 'do_shortcode_ta...', '[property_filte...')
+#3 /home/mnnsyhzd/test2/wp-content/themes/understrap-child-1.2.0/homepage.php(27): do_shortcode('[property_filte...')
+#4 /home/mnnsyhzd/test2/wp-includes/template-loader.php(106): include('/home/mnnsyhzd/...')
+#5 /home/mnnsyhzd/test2/wp-blog-header.php(19): require_once('/home/mnnsyhzd/...')
+#6 /home/mnnsyhzd/test2/index.php(17): require('/home/mnnsyhzd/...')
+#7 {main}
+  thrown in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php on line 100
+[06-Oct-2024 06:44:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mnnsyhzd/test2/wp-content/themes/understrap-child-1.2.0/functions.php on line 141
+[06-Oct-2024 06:44:33 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mnnsyhzd/test2/wp-content/themes/understrap-child-1.2.0/functions.php on line 141
+[07-Oct-2024 13:25:30 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mnnsyhzd/test2/wp-content/themes/understrap-child-1.2.0/footer.php on line 54
+[07-Oct-2024 17:19:58 UTC] PHP Parse error:  syntax error, unexpected 'wp_ajax_filter_properties' (T_STRING), expecting ';' or ',' in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php on line 409
+[07-Oct-2024 17:19:59 UTC] PHP Parse error:  syntax error, unexpected 'wp_ajax_filter_properties' (T_STRING), expecting ';' or ',' in /home/mnnsyhzd/test2/wp-content/plugins/rs_plugin/rs_plugin.php on line 409
